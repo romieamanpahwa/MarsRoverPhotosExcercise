@@ -11,23 +11,19 @@ This is a Web API which exposes the following three Web Methods:
 3. GetAsync
 
 ### GetPhotosByEarthDateAsync
-*This method fetches all the photos related data from the external API for a given date
-*This method returns the fetched data in the form of JSON
-*Relative API Path/End Point: /api/marsroverphotos/photos/{date} where date is string
+* This method fetches all the photos related data from the external API for a given date
+* This method returns the fetched data in the form of JSON
+* **Relative API Path/End Point**: /api/marsroverphotos/photos/{date} where date is string
 
 ### GetPhotosAsync
-*Like, GetPhotosByEarthDateAsync, this method also fetches all the photos related data from the external API for a given date
-*This method stores the fetched photos locally
-**Relative API Path/End Point**: /api/marsroverphotos/v1/photos/{date} where date is string
+* Like, GetPhotosByEarthDateAsync, this method also fetches all the photos related data from the external API for a given date
+* This method stores the fetched photos locally
+* **Relative API Path/End Point**: /api/marsroverphotos/v1/photos/{date} where date is string
 
 ### GetAsync
-*This method fetches all the photos related data from the external API for a fix list of the dates that it reads one-by-one from "dates.txt" file
-*This method stores the fetched photos locally
-**Relative API Path/End Point**: /api/marsroverphotos/v1/photos where date is string
-
-*Like, GetPhotosByEarthDateAsync, this method also fetches all the photos related data from the external API for a given date
-*This method stores the fetched photos locally
-**Relative API Path/End Point**: /api/marsroverphotos/v1/photos/{date} where date is string
+* This method fetches all the photos related data from the external API for a fix list of the dates that it reads one-by-one from "dates.txt" file
+* This method stores the fetched photos locally
+* **Relative API Path/End Point**: /api/marsroverphotos/v1/photos where date is string
 
 **Remarks**:
 a. The project is based upon "Development" Enviornment
